@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         webView.loadUrl(url);
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
+        Log.d("tag","第一次修改");
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
