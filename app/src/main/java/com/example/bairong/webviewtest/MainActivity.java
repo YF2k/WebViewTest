@@ -63,9 +63,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d("tag","分支-xiangyuli-第一次提交");
         Log.d("tag","主分支-master-第二次提交");
         Log.d("tag","第二次发布");
+        Log.d("tag","分支-xiangyuli-冲突");
 
-        Log.d("tag","分支-ZEXIN-第一次提交");
-        Log.d("tag","创建tag");
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public void onLoadResource(WebView view, String url) {
